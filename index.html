@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>🤍Your surprise🤍</title>
+    <link rel="icon" href="imgs/welcome.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    
+	html, body {
+		overflow: hidden;  	
+		height: 100%;      	
+		margin: 0;       	
+	}
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #home{
+            position: relative;
+            top: 190px;
+            font-size: xx-large;
+            text-align: center;
+            padding-top: 20px;
+        }
+        #ilovemygf {
+            position: fixed;
+            bottom: 20px;
+            right: 20px; 
+            transform: rotate(10deg);
+        }
+
+        #ilovemygf img {
+            width: 300px;
+        }
+        footer {
+            position: absolute;  
+            bottom: 0;           
+            left: 0;              
+        }
+        .hellowave {
+            transform: rotate(15deg);
+        }
+
+
+
+    </style>
+</head>
+<body style="font-weight: bold;" >
+    <div id="home">
+    <h1>Welcomee to your surprise babyy <img src="imgs/welcome.png" width="100"></h1>
+    <a href="reasonsiloveher.html">
+    <button style="width: 200px; height: 50px;"> Reaons I love youuu</button>
+    </a>
+    <br>
+    <a href="things-that-remind-me-of-her.html">
+        <button style="width: 200px; height: 50px;">Things that remind me of youu</button>
+    </a>
+    <br>
+    <a href="usgallery.html">
+    <button style="width: 200px; height: 50px;">Usss</button>
+    </a>
+    <div class="hellowave">
+    <img style="position: absolute; left: 4px;" width="500" src="imgs/hellokittywave.gif" alt="">
+    </div>
+    <a href="for-if-blank.html">
+        <button style="width: 200px; height: 50px;">For if <s>blank</s></button>
+        </a>
+</div>
+<div id="ilovemygf">
+    <img src="imgs/ilovemygf.png" alt="Image not loading" style="width: 300px;">
+    </div>
+    <br style="height: 30000px;">
+    <footer> By Jacob, For the love of my life, Regan ♥ <img src="imgs/hellocat.gif" alt=""> </footer >  
+        <script src="falling-background.js"></script>
+<script>
+    // Initialize when the page loads
+    window.onload = function() {
+        const fallingBackground = new FallingBackground({
+            imageSrc: 'imgs/iloveregan.png',  // Replace with your image path
+            numberOfImages: 15,                   // Number of falling images
+            imageSize: 100,                       // Size in pixels
+            minDuration: 5,                       // Minimum fall duration in seconds
+            maxDuration: 8,                       // Maximum fall duration in seconds
+            opacity: 0.5,                         // Image opacity (0-1)
+            rotate: true                          // Whether images should rotate while falling
+        });
+    };
+</script>
+</body>
+</html>
